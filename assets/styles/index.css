@@ -182,12 +182,6 @@ a {
   flex-direction: column;
 }
 
-.text > span:first-child {
-  font-size: 18px;
-  font-weight: 400px;
-}
-
-
 .tags > span {
   font-size: 12px;
   font-weight: 400;
@@ -196,6 +190,12 @@ a {
   color: #fff;
   line-height: 40px;
 }
+
+.text > span:first-child {
+  font-size: 18px;
+  font-weight: 400px;
+}
+
 
 .tags > span:first-child {
   font-size: 15px;
