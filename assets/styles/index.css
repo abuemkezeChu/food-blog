@@ -13,7 +13,6 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding-bottom: 40px;
 }
 
 .header {
@@ -138,4 +137,68 @@ a {
 .about > h6,
 .about > p {
   text-align: center;
+}
+
+.footer {
+  display: flex;
+  margin: 40px;
+}
+
+.box {
+  width: 384px;
+  padding: 10px;
+}
+
+.box > h3,
+.box > p {
+  margin-bottom: 30px;
+}
+
+.box > h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.link {
+  display: inline-block;
+  color: #000;
+  padding: 0;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.post > img {
+  width: 50px;
+  height: 50px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.text > span:first-child {
+  font-size: 18px;
+  font-weight: 400px;
+}
+
+
+.tags > span {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0 8px;
+  background-color: #616161;
+  color: #fff;
+  line-height: 40px;
+}
+
+.tags > span:first-child {
+  font-size: 15px;
+  margin: 0 0 16px;
+  background-color: #000;
 }
