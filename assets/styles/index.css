@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family:"Karma", serif;
+  font-family: Karma, serif;
 }
 
 .container {
@@ -19,11 +19,43 @@ body {
   display: flex;
   justify-content: center;
   font-size: 24px;
+  margin-bottom: 80px;
 }
 
 .header-container {
   padding: 16px 5px;
   display: flex;
   align-items: center;
-  gap: 400px;
+  gap: 500px;
+}
+
+.cards {
+  display: flex;
+  margin: 40px;
+}
+
+.card {
+  width: 288px;
+  height: 100%;
+  padding: 0 5px;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.card > h3,
+.card > p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.card > h3 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 36px;
+}
+
+.card > p {
+  font-size: 15px;
 }
