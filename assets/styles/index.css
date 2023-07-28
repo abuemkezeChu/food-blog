@@ -10,6 +10,29 @@ body {
   font-family: Karma, serif;
 }
 
+.side-nav {
+  width: 40%;
+  min-width: 300px;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  background-color: #fff;
+  z-index: 2;
+  box-shadow: #00000033 0 12px 28px 0, #0000001a 0 2px 4px 0, #ffffff0d 0 0 0 1px inset;
+}
+
+.side-nav > a {
+  display: block;
+  font-size: 24px;
+  padding: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.side-nav > a:hover {
+  background-color: #c7c6c6;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -23,10 +46,19 @@ body {
 }
 
 .header-container {
-  padding: 16px 5px;
+  padding: 0 5px;
   display: flex;
   align-items: center;
   gap: 500px;
+}
+
+.header-container > span:first-child {
+  padding: 16px;
+}
+
+.header-container > span:first-child:hover {
+  background-color: #c7c6c6;
+  cursor: pointer;
 }
 
 .cards {

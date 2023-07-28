@@ -7,9 +7,14 @@
   <title>food-blog</title>
 </head>
 <body>
+  <nav class="side-nav" id="my-side-nav">
+    <a href="#" id="close-btn">Close Menu</a>
+    <a href="#food" id="food-btn">Food</a>
+    <a href="#about" id="about-btn">About</a>
+  </nav>
   <header class="header">
-    <div class="header-container">
-      <span>☰</span>
+    <div class="header-container" id="food">
+      <span id="menu-btn">☰</span>
       <span>My Food</span>
       <span>Mail</span>
     </div>
@@ -92,7 +97,7 @@
 
     <hr class="divider">
 
-    <div class="about-me">
+    <div class="about-me" id="about">
       <h3>About Me, The Food Man</h3>
       <img src="assets/images/chef.jpg" alt="a chef serving tea">
       <div class="about">
@@ -143,6 +148,6 @@
     </footer>
 
   </main>
-
+  <script src="assets/scripts/index.js"></script>
 </body>
 </html>
