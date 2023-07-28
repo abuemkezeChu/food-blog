@@ -10,29 +10,6 @@ body {
   font-family: Karma, serif;
 }
 
-.side-nav {
-  width: 40%;
-  min-width: 300px;
-  height: 100vh;
-  display: none;
-  position: fixed;
-  background-color: #fff;
-  z-index: 2;
-  box-shadow: #00000033 0 12px 28px 0, #0000001a 0 2px 4px 0, #ffffff0d 0 0 0 1px inset;
-}
-
-.side-nav > a {
-  display: block;
-  font-size: 24px;
-  padding: 20px;
-  text-decoration: none;
-  color: #000;
-}
-
-.side-nav > a:hover {
-  background-color: #c7c6c6;
-}
-
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -232,4 +209,27 @@ a {
   font-size: 15px;
   margin: 0 0 16px;
   background-color: #000;
+}
+
+.side-nav {
+  width: 40%;
+  min-width: 300px;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  background-color: #fff;
+  z-index: 2;
+  box-shadow: #0003 0 12px 28px 0, #0000001a 0 2px 4px 0, #ffffff0d 0 0 0 1px inset;
+}
+
+.side-nav > a {
+  display: block;
+  font-size: 24px;
+  padding: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.side-nav > a:hover {
+  background-color: #c7c6c6;
 }
