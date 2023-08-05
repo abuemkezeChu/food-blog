@@ -69,7 +69,6 @@ body {
   align-items: center;
   width: 100%;
   max-width: 1200px;
-  /* margin-left: 10px; */
 }
 
 .card {
@@ -242,8 +241,7 @@ a {
   position: fixed;
   background-color: #fff;
   z-index: 2;
-  box-shadow: #0003 0 12px 28px 0, #0000001a 0 2px 4px 0,
-    #ffffff0d 0 0 0 1px inset;
+  box-shadow: #0003 0 12px 28px 0, #0000001a 0 2px 4px 0, #ffffff0d 0 0 0 1px inset;
 }
 
 @media screen and (max-width: 425px) {
