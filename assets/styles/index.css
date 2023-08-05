@@ -11,7 +11,8 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -26,9 +27,11 @@ body {
   padding: 0 5px;
   background-color: #fff;
   position: fixed;
+  max-width: 1200px;
+  width: 100%;
   display: flex;
   align-items: center;
-  gap: 500px;
+  justify-content: space-between;
 }
 
 .tags > span {
@@ -62,7 +65,11 @@ body {
 
 .cards {
   display: flex;
-  margin: 40px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  /* margin-left: 10px; */
 }
 
 .card {
@@ -154,6 +161,7 @@ a {
 }
 
 .about-me > img {
+  width: 80%;
   display: block;
   margin: 20px auto;
 }
@@ -188,7 +196,8 @@ a {
 }
 
 .box {
-  width: 384px;
+  width: 100%;
+  max-width: 384px;
   padding: 10px;
 }
 
@@ -233,5 +242,23 @@ a {
   position: fixed;
   background-color: #fff;
   z-index: 2;
-  box-shadow: #0003 0 12px 28px 0, #0000001a 0 2px 4px 0, #ffffff0d 0 0 0 1px inset;
+  box-shadow: #0003 0 12px 28px 0, #0000001a 0 2px 4px 0,
+    #ffffff0d 0 0 0 1px inset;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer {
+    display: block;
+  }
 }
